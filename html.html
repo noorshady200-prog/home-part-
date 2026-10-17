@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>درس أجزاء البيت 🏠</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:linear-gradient(160deg,#fff4d6,#ffe0ef 50%,#dff3ff);color:#2d2a4a;font-size:20px;line-height:1.7}
+header{text-align:center;padding:22px 12px 8px;background:linear-gradient(90deg,#ff7eb3,#ffb347,#6ed3ff);color:#fff;border-radius:0 0 40px 40px;box-shadow:0 6px 18px #0002}
+h1{margin:0;font-size:2.2rem;text-shadow:2px 2px 0 #0003}
+nav{position:sticky;top:0;z-index:9;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;padding:8px;background:#fffd;backdrop-filter:blur(6px)}
+nav a,button.t{border:0;border-radius:30px;padding:6px 14px;font:inherit;font-size:.9rem;font-weight:700;color:#fff;text-decoration:none;cursor:pointer;background:#7c5cff}
+nav a:nth-child(2n){background:#ff6fa5}nav a:nth-child(3n){background:#28b67e}nav a:nth-child(4n){background:#ff9f1c}
+button.t{background:#0a9bd8}
+section{max-width:980px;margin:22px auto;padding:18px;background:#fff;border-radius:28px;box-shadow:0 6px 18px #0001;border:4px dashed #ffc2dc}
+h2{margin:0 0 12px;color:#e0457b;font-size:1.6rem}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.c{cursor:pointer;text-align:center;border-radius:22px;padding:12px 8px;color:#fff;font-weight:700;transition:.2s;box-shadow:0 4px 0 #0002}
+.c:hover{transform:translateY(-4px) rotate(-2deg)}
+.c .e{font-size:2.8rem;display:block}.c .w{font-size:1.4rem}
+.c:nth-child(5n+1){background:#ff6b6b}.c:nth-child(5n+2){background:#ffa62b;}.c:nth-child(5n+3){background:#2fbf71}.c:nth-child(5n+4){background:#3a86ff}.c:nth-child(5n){background:#ff70a6}
+.tr{display:none;font-size:.8rem;font-weight:400;direction:ltr;opacity:.95}
+body.on .tr{display:block}
+.dot{display:inline-block;width:46px;height:46px;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 6px #0004}
+.s{cursor:pointer;margin:8px 0;padding:8px 14px;border-radius:16px;background:#fff6dc;border-right:8px solid #ffb703}
+.s:hover{background:#ffeaa8}.s .tr{color:#555}
+.s:before{content:"🔊 "}
+.box{background:#e8f6ff;border-radius:18px;padding:10px 16px;margin:10px 0;border-right:8px solid #3a86ff}
+.box.p{background:#ffe9f3;border-color:#ff6fa5}
+n,v{padding:1px 8px;border-radius:10px;font-weight:700}
+.col n{background:#bfe0ff;color:#0b4a8a}.col v{background:#ffc9c9;color:#a10d0d}
+.q{margin:14px 0;padding:12px;border-radius:18px;background:#f4f0ff}
+.q b{cursor:pointer}
+.q button{font:inherit;font-size:.95rem;margin:4px;padding:6px 16px;border-radius:20px;border:3px solid #7c5cff;background:#fff;cursor:pointer}
+.q button.ok{background:#2fbf71;color:#fff;border-color:#2fbf71}.q button.no{background:#ff6b6b;color:#fff;border-color:#ff6b6b}
+#sc{position:sticky;bottom:8px;margin:0 auto;width:max-content;padding:8px 24px;border-radius:30px;background:#ff9f1c;color:#fff;font-weight:800;box-shadow:0 4px 12px #0003}
+.box[data-s]{cursor:pointer}.box[data-s]:before{content:"🔊 "}h2 .tr,h3 .tr{font-size:.85rem;color:#888}.gl span{display:inline-block;margin:3px;padding:3px 12px;border-radius:14px;cursor:pointer;font-size:.95rem}.gl span.n{background:#bfe0ff}.gl span.v{background:#ffc9c9}nav a .tr{font-size:.7rem}.q button .tr{font-size:.7rem}.q>.tr{margin-bottom:4px}footer{text-align:center;padding:14px;color:#8a6;font-size:.9rem}
+</style>
+</head>
+<body class="on">
+<header><h1>🏠 درسُ أجزاءِ البيت 🏠</h1><span class="tr" style="font-size:1.2rem;font-weight:700">Lesson: Parts of the House</span><div>اضغط على أي كلمة أو جملة لتسمعها 🔊<span class="tr">Click on any word or sentence to hear it</span></div><div style="margin-top:6px;font-weight:700">إعداد المعلمة: نوران الديسطي 👩‍🏫<span class="tr">Prepared by teacher Nouran El-Desouky</span></div></header>
+<nav><a href="#a">أجزاء البيت<span class="tr">The House</span></a><a href="#b">المفردات<span class="tr">Vocabulary</span></a><a href="#c">يوجد وأفضّل<span class="tr">There is / I prefer</span></a><a href="#d">التعجب<span class="tr">Exclamation</span></a><a href="#e">الاسم والفعل<span class="tr">Noun &amp; Verb</span></a><a href="#f">تدريبات<span class="tr">Exercises</span></a><button class="t" onclick="document.body.classList.toggle('on')">🌐 الترجمة: إظهار / إخفاء<br>Translation on/off</button></nav>
+
+<section id="a"><h2>🏡 أجزاءُ البيت<span class="tr">Parts of the House</span></h2><div class="g" id="rooms"></div></section>
+
+<section id="b"><h2>🪑 المفردات<span class="tr">Vocabulary</span></h2><div class="g" id="things"></div>
+<h2 style="margin-top:18px">🎨 الألوان<span class="tr">Colors</span></h2><div class="g" id="cols"></div></section>
+
+<section id="c"><h2>✅ الفعل «يوجد» والفعل «أفضّل»<span class="tr">The verbs "there is" and "I prefer"</span></h2>
+<div class="box" data-s="يوجد نستخدمه لنقول إن الشيء موجود في مكان."><b data-s="يوجد">يوجد</b> نستخدمه لنقول إن الشيء <b>موجود</b> في مكان.<span class="tr">"Yujad" (there is / there are) is a verb we use to say that something exists in a place.</span></div>
+<div id="s1"></div>
+<div class="box p" data-s="أفضل نستخدمه لنقول ما نحبه أكثر."><b data-s="أفضّل">أفضّل</b> نستخدمه لنقول ما <b>نحبه أكثر</b>.<span class="tr">"Ufaddil" (I prefer) is a verb we use to say what we like more.</span></div>
+<div id="s2"></div></section>
+
+<section id="d"><h2>😍 أسلوبُ التعجّب<span class="tr">Exclamation style</span></h2>
+<div class="box" data-s="نتعجب بهذه الصيغة: ما أفعل الشيء. مثل: ما أجمل بيتي">نتعجّب بهذه الصيغة: <b>ما + أفعل + الشيء</b> &nbsp;مثل: <b>ما أجملَ بيتي!</b><span class="tr">We express wonder with this pattern: "ma + afʿal + the thing". Example: ما أجمل بيتي! = How beautiful my house is!</span></div>
+<div id="s3"></div></section>
+
+<section id="e"><h2>🔎 الاسمُ والفعل<span class="tr">The Noun and the Verb</span></h2>
+<div class="box" data-s="الاسم: كلمة تدل على إنسان أو حيوان أو شيء أو مكان: سرير، مطبخ، بيت. نميزه بأنه يقبل ال في أوله: السرير، المطبخ."><b>الاسم:</b> كلمة تدل على إنسان أو حيوان أو شيء أو مكان: <b>سرير، مطبخ، بيت</b>.<br>نميّزه بأنه يقبل <b>«ال»</b> في أوله: (السرير، المطبخ).<span class="tr">Noun: a word for a person, animal, thing or place: bed, kitchen, house. We recognize it because it accepts "al" (the) at the start: السرير = the bed, المطبخ = the kitchen.</span></div>
+<div class="box p" data-s="الفعل: كلمة تدل على عمل أو حدث: يوجد، أفضل، أنام، آكل. نميزه بأنه يقبل أنا أو هو قبله: أنا أنام، هو يأكل."><b>الفعل:</b> كلمة تدل على عمل أو حدث: <b>يوجد، أفضّل، أنام، آكل</b>.<br>نميّزه بأنه يقبل <b>«أنا»</b> أو <b>«هو»</b> قبله: (أنا أنام، هو يأكل).<span class="tr">Verb: a word for an action or event: there is, I prefer, I sleep, I eat. We recognize it because it accepts "ana" (I) or "huwa" (he) before it: أنا أنام = I sleep, هو يأكل = he eats.</span></div>
+<h3>📖 فقرة<span class="tr">A short paragraph</span></h3>
+<div class="s col" id="para" data-s="بيتي جميل. في بيتي غرفة الجلوس وغرفة النوم والمطبخ والحمام. يوجد في غرفة الجلوس كرسي وتلفاز. أنام في غرفة النوم على السرير. آكل في المطبخ بالملعقة والشوكة. أنا أفضل غرفة الجلوس. ما أجمل بيتي!">
+<n>بيتي</n> جميل. في <n>بيتي</n> <n>غرفة</n> الجلوس و<n>غرفة</n> النوم و<n>المطبخ</n> و<n>الحمام</n>.
+<v>يوجد</v> في <n>غرفة</n> الجلوس <n>كرسي</n> و<n>تلفاز</n>. <v>أنام</v> في <n>غرفة</n> النوم على <n>السرير</n>.
+<v>آكل</v> في <n>المطبخ</n> بـ<n>الملعقة</n> و<n>الشوكة</n>. أنا <v>أفضّل</v> <n>غرفة</n> الجلوس. ما أجمل <n>بيتي</n>!
+<span class="tr">My house is beautiful. In my house there are a living room, a bedroom, a kitchen and a bathroom. In the living room there is a chair and a TV. I sleep in the bedroom on the bed. I eat in the kitchen with the spoon and the fork. I prefer the living room. How beautiful my house is!</span></div>
+<p>🔵 الأزرق = <b>اسم</b> &nbsp; 🔴 الأحمر = <b>فعل</b><span class="tr">Blue = noun, Red = verb. Click a word to hear it:</span></p><div class="gl"><span class="n" data-s="بيتي">بيتي = my house</span><span class="n" data-s="غرفة">غرفة = room</span><span class="n" data-s="المطبخ">المطبخ = the kitchen</span><span class="n" data-s="الحمام">الحمام = the bathroom</span><span class="n" data-s="كرسي">كرسي = chair</span><span class="n" data-s="تلفاز">تلفاز = TV</span><span class="n" data-s="السرير">السرير = the bed</span><span class="n" data-s="الملعقة">الملعقة = the spoon</span><span class="n" data-s="الشوكة">الشوكة = the fork</span><span class="v" data-s="يوجد">يوجد = there is</span><span class="v" data-s="أنام">أنام = I sleep</span><span class="v" data-s="آكل">آكل = I eat</span><span class="v" data-s="أفضّل">أفضّل = I prefer</span></div></section>
+
+<section id="f"><h2>🏆 تدريبات<span class="tr">Exercises</span></h2><div id="qs"></div><div id="sc">النتيجة: 0 / 0</div></section>
+<footer>نتمنى لك درسًا ممتعًا 🌈<br>عمل المعلمة: نوران الديسطي<span class="tr" style="margin:0 auto;text-align:center">Wishing you an enjoyable lesson! · Created by teacher Nouran El-Desouky</span></footer>
+
+<script>
+const say=t=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ar-SA';u.rate=.82;u.pitch=1.1;speechSynthesis.speak(u)};
+document.addEventListener('click',e=>{const x=e.target.closest('[data-s]');if(x)say(x.dataset.s)});
+const $=i=>document.getElementById(i);
+const card=(w,en,e)=>`<div class="c" data-s="${w}"><span class="e">${e}</span><span class="w">${w}</span><span class="tr">${en}</span></div>`;
+$('rooms').innerHTML=[["غرفة الجلوس","Living room","🛋️"],["غرفة النوم","Bedroom","🛏️"],["المطبخ","Kitchen","🍳"],["الحمام","Bathroom","🛁"]].map(a=>card(...a)).join('');
+const TB='<svg viewBox="0 0 64 64" width="60" height="60"><rect x="6" y="20" width="52" height="9" rx="3" fill="#a9642a" stroke="#fff" stroke-width="2"/><rect x="11" y="29" width="6" height="28" fill="#8d4f1f" stroke="#fff" stroke-width="2"/><rect x="47" y="29" width="6" height="28" fill="#8d4f1f" stroke="#fff" stroke-width="2"/></svg>',FR='<svg viewBox="0 0 64 64" width="60" height="60"><rect x="16" y="4" width="32" height="56" rx="5" fill="#eaf6ff" stroke="#fff" stroke-width="2.5"/><line x1="16" y1="24" x2="48" y2="24" stroke="#5b7c99" stroke-width="2.5"/><rect x="40" y="10" width="3" height="9" rx="1.5" fill="#5b7c99"/><rect x="40" y="29" width="3" height="16" rx="1.5" fill="#5b7c99"/></svg>';
+$('things').innerHTML=[["كرسي","Chair","🪑"],["طاولة","Table",TB],["تلفاز","TV","📺"],["سرير","Bed","🛏️"],["ثلاجة","Fridge",FR],["ملعقة","Spoon","🥄"],["سكين","Knife","🔪"],["شوكة","Fork","🍴"]].map(a=>card(...a)).join('');
+$('cols').innerHTML=[["أحمر","Red","#ff3b3b"],["أصفر","Yellow","#ffd60a"],["أخضر","Green","#2fbf71"],["أزرق","Blue","#3a86ff"],["وردي","Pink","#ff8fc7"]].map(a=>`<div class="c" style="background:#fff;color:#2d2a4a;box-shadow:0 4px 0 ${a[2]}" data-s="${a[0]}"><span class="dot" style="background:${a[2]}"></span><br><span class="w">${a[0]}</span><span class="tr">${a[1]}</span></div>`).join('');
+const L=(id,arr)=>$(id).innerHTML=arr.map(a=>`<div class="s" data-s="${a[0]}">${a[0]}<span class="tr">${a[1]}</span></div>`).join('');
+L('s1',[["يوجد في بيتي غرفة الجلوس.","There is a living room in my house."],["يوجد في بيتي غرفة النوم.","There is a bedroom in my house."],["يوجد في بيتي مطبخ.","There is a kitchen in my house."],["يوجد في بيتي حمام.","There is a bathroom in my house."],["يوجد في غرفة الجلوس كرسي وتلفاز.","In the living room there is a chair and a TV."],["يوجد في غرفة النوم سرير.","In the bedroom there is a bed."],["يوجد في المطبخ ثلاجة وطاولة.","In the kitchen there is a fridge and a table."],["يوجد في المطبخ ملعقة وسكين وشوكة.","In the kitchen there is a spoon, a knife and a fork."]]);
+L('s2',[["أنا أفضّل غرفة الجلوس.","I prefer the living room."],["أنا أفضّل غرفة النوم.","I prefer the bedroom."],["أنا أفضّل المطبخ.","I prefer the kitchen."],["أنا أفضّل الحمام.","I prefer the bathroom."],["أنا أفضّل اللون الأزرق.","I prefer the color blue."],["أنا أفضّل السرير الوردي.","I prefer the pink bed."]]);
+L('s3',[["ما أجمل بيتي!","How beautiful my house is!"],["ما أجمل غرفة الجلوس!","How beautiful the living room is!"],["ما أجمل غرفة النوم!","How beautiful the bedroom is!"],["ما أجمل المطبخ!","How beautiful the kitchen is!"],["ما أجمل الحمام!","How beautiful the bathroom is!"],["ما أجمل السرير الأزرق!","How beautiful the blue bed is!"]]);
+const Q=[["🛏️ أين ننام؟", ["المطبخ", "غرفة النوم", "الحمام"], 1, "Where do we sleep?", ["Kitchen", "Bedroom", "Bathroom"]], ["يوجد في المطبخ ...", ["ثلاجة", "سرير", "تلفاز"], 0, "In the kitchen there is ...", ["Fridge", "Bed", "TV"]], ["يوجد في غرفة النوم ...", ["سكين", "ثلاجة", "سرير"], 2, "In the bedroom there is ...", ["Knife", "Fridge", "Bed"]], ["يوجد في غرفة الجلوس ...", ["شوكة", "تلفاز", "سرير"], 1, "In the living room there is ...", ["Fork", "TV", "Bed"]], ["🍎 لون التفاحة ...", ["أزرق", "أحمر", "أخضر"], 1, "The color of the apple is ...", ["Blue", "Red", "Green"]], ["🍌 لون الموز ...", ["أصفر", "وردي", "أحمر"], 0, "The color of the banana is ...", ["Yellow", "Pink", "Red"]], ["☁️ لون السماء ...", ["أخضر", "أصفر", "أزرق"], 2, "The color of the sky is ...", ["Green", "Yellow", "Blue"]], ["أنا ... غرفة الجلوس.", ["يوجد", "أفضّل", "أجمل"], 1, "I ... the living room.", ["there is", "I prefer", "most beautiful"]], ["ما ... بيتي!", ["جميل", "أجمل", "جمال"], 1, "How ... my house is!", ["beautiful", "more beautiful (how beautiful)", "beauty"]], ["كلمة (سرير) ...", ["اسم", "فعل"], 0, "The word \"سرير\" (bed) is ...", ["Noun", "Verb"]], ["كلمة (يوجد) ...", ["اسم", "فعل"], 1, "The word \"يوجد\" (there is) is ...", ["Noun", "Verb"]], ["كلمة (ثلاجة) ...", ["اسم", "فعل"], 0, "The word \"ثلاجة\" (fridge) is ...", ["Noun", "Verb"]], ["كلمة (أفضّل) ...", ["اسم", "فعل"], 1, "The word \"أفضّل\" (I prefer) is ...", ["Noun", "Verb"]], ["كلمة (أنام) ...", ["اسم", "فعل"], 1, "The word \"أنام\" (I sleep) is ...", ["Noun", "Verb"]]];
+let ok=0,n=0;
+$('qs').innerHTML=Q.map((q,i)=>`<div class="q"><b data-s="${q[0].replace(/[^\u0600-\u06FF .]/g,'')}">🔊 ${i+1}) ${q[0]}</b><span class="tr">${q[3]}</span>${q[1].map((o,j)=>`<button data-i="${i}" data-j="${j}">${o}<span class="tr">${q[4][j]}</span></button>`).join('')}</div>`).join('');
+$('qs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.parentNode.dataset.d)return;const p=b.parentNode,r=+b.dataset.j===Q[+b.dataset.i][2];n++;if(r){ok++;p.dataset.d=1;b.className='ok';say('أحسنت')}else{b.className='no';say('حاول مرة أخرى');n--;if(!p.dataset.w){p.dataset.w=1;n++}}$('sc').textContent=`النتيجة (Score): ${ok} / ${Q.length} ${ok==Q.length?'🎉':''}`});
+$('sc').textContent=`النتيجة (Score): 0 / ${Q.length}`;
+</script>
+</body>
+</html>
